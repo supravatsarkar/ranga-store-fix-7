@@ -40,12 +40,17 @@ body {
   width: 290px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-right: none;
 }
 .search-button {
   margin-left: 28px;
-    margin-top: -1px;
+    margin-top: -2px;
+}
+.product{
+  background: #80808025;
+    margin: 10px;
 }
 #all-products {
   display: grid;
