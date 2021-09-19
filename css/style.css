@@ -83,6 +83,7 @@ body {
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  /* top:112px; */
 }
 .cart-main {
   padding-right: 30px;
@@ -124,6 +125,17 @@ body {
 }
 .fas{
   padding-left: 6px;
+}
+
+.detials{
+  margin: 20px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+}
+.detials > h4{
+  text-align: center;
+  
 }
 @media only screen and (max-width: 468px) {
   #all-products {
