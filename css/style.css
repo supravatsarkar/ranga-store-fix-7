@@ -129,12 +129,14 @@ body {
 
 .detials{
   margin: 20px;
-  border: 2px solid red;
+  border: 2px solid #5cb85c;
   border-radius: 10px;
   padding: 10px;
-}
-.detials > h4{
   text-align: center;
+}
+.detials > h3{
+  text-align: center;
+  color: #5cb85c;
   
 }
 @media only screen and (max-width: 468px) {

@@ -92,10 +92,16 @@ const getDetails = (productId) => {
     .then(data => showDetails(data));
 }
 
-const showDetails = data => {
+const showDetails = product => {
   const detailsSection = document.getElementById('details-section');
   detailsSection.innerHTML = `
-  
-    <p>${data.description}</p>
+  <div>
+    <img class="product-image" src=${product.image}></img>
+      </div>
+      <h3>${product.title}</h3>
+      <p>Category: ${product.category}</p>
+  <h3>Price: ${product.price}</h3>
+  <h5 class="rating">Rating: <span class="rate">${product.rating.rate}<i class="fas fa-star"></i></span> <span class="rating-count">(${product.rating.count})</span> <h5>
+    <p>Description: ${product.description}</p>
   `
 }
