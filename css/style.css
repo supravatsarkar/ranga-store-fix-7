@@ -2,6 +2,29 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.top-heading{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.site-name{
+  /* margin: 10px auto; */
+  color: #fff;
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 8px;
+  width: 30%;
+  text-align: center;
+  /* display: inline-block; */
+  background: #337ab7;
+  font-weight: 700;
+}
+
+
+.top-login{
+  
+}
 .search-field {
   border: none;
   border-radius: 50px;
